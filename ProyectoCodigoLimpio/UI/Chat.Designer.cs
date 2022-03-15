@@ -99,18 +99,18 @@
             this.headerLabel.ForeColor = System.Drawing.Color.White;
             this.headerLabel.Location = new System.Drawing.Point(12, 2);
             this.headerLabel.Name = "headerLabel";
-            this.headerLabel.Size = new System.Drawing.Size(66, 28);
+            this.headerLabel.Size = new System.Drawing.Size(103, 28);
             this.headerLabel.TabIndex = 1;
-            this.headerLabel.Text = "Chat";
+            this.headerLabel.Text = "ChuBox";
             this.headerLabel.Click += new System.EventHandler(this.headerLabel_Click);
             // 
             // bottomChatPanel
             // 
             this.bottomChatPanel.Controls.Add(this.sendButton);
             this.bottomChatPanel.Controls.Add(this.textBox);
-            this.bottomChatPanel.Location = new System.Drawing.Point(206, 499);
+            this.bottomChatPanel.Location = new System.Drawing.Point(245, 499);
             this.bottomChatPanel.Name = "bottomChatPanel";
-            this.bottomChatPanel.Size = new System.Drawing.Size(694, 55);
+            this.bottomChatPanel.Size = new System.Drawing.Size(672, 55);
             this.bottomChatPanel.TabIndex = 1;
             // 
             // sendButton
@@ -121,9 +121,9 @@
             this.sendButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.sendButton.FlatAppearance.BorderSize = 0;
             this.sendButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.sendButton.Font = new System.Drawing.Font("Microsoft JhengHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.sendButton.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.sendButton.ForeColor = System.Drawing.Color.White;
-            this.sendButton.Location = new System.Drawing.Point(631, 0);
+            this.sendButton.Location = new System.Drawing.Point(609, 0);
             this.sendButton.Name = "sendButton";
             this.sendButton.Size = new System.Drawing.Size(63, 55);
             this.sendButton.TabIndex = 2;
@@ -136,9 +136,9 @@
             this.textBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox.Font = new System.Drawing.Font("Segoe UI", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textBox.ForeColor = System.Drawing.Color.White;
-            this.textBox.Location = new System.Drawing.Point(22, 1);
+            this.textBox.Location = new System.Drawing.Point(0, 5);
             this.textBox.Name = "textBox";
-            this.textBox.Size = new System.Drawing.Size(672, 47);
+            this.textBox.Size = new System.Drawing.Size(603, 47);
             this.textBox.TabIndex = 0;
             this.textBox.Text = "Type Something";
             this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
@@ -147,30 +147,34 @@
             // messagesSetPanel
             // 
             this.messagesSetPanel.Controls.Add(this.listBoxMessagesReceived);
-            this.messagesSetPanel.Location = new System.Drawing.Point(206, 137);
+            this.messagesSetPanel.Location = new System.Drawing.Point(245, 137);
             this.messagesSetPanel.Name = "messagesSetPanel";
-            this.messagesSetPanel.Size = new System.Drawing.Size(694, 341);
+            this.messagesSetPanel.Size = new System.Drawing.Size(672, 341);
             this.messagesSetPanel.TabIndex = 2;
             // 
             // listBoxMessagesReceived
             // 
+            this.listBoxMessagesReceived.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
+            this.listBoxMessagesReceived.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBoxMessagesReceived.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBoxMessagesReceived.ForeColor = System.Drawing.Color.Snow;
             this.listBoxMessagesReceived.FormattingEnabled = true;
             this.listBoxMessagesReceived.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.listBoxMessagesReceived.ItemHeight = 15;
-            this.listBoxMessagesReceived.Location = new System.Drawing.Point(22, -2);
+            this.listBoxMessagesReceived.Location = new System.Drawing.Point(0, 0);
             this.listBoxMessagesReceived.Name = "listBoxMessagesReceived";
             this.listBoxMessagesReceived.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.listBoxMessagesReceived.Size = new System.Drawing.Size(669, 349);
+            this.listBoxMessagesReceived.Size = new System.Drawing.Size(672, 341);
             this.listBoxMessagesReceived.TabIndex = 0;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.profileLabel);
             this.panel1.Controls.Add(this.profilePictureBox);
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.panel1.Location = new System.Drawing.Point(228, 38);
+            this.panel1.Location = new System.Drawing.Point(245, 38);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(672, 93);
             this.panel1.TabIndex = 3;
@@ -224,9 +228,10 @@
             // 
             // ListBoxUsers
             // 
-            this.ListBoxUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.ListBoxUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
+            this.ListBoxUsers.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListBoxUsers.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ListBoxUsers.ForeColor = System.Drawing.SystemColors.Window;
+            this.ListBoxUsers.ForeColor = System.Drawing.Color.Snow;
             this.ListBoxUsers.FormattingEnabled = true;
             this.ListBoxUsers.ItemHeight = 15;
             this.ListBoxUsers.Location = new System.Drawing.Point(0, 157);
@@ -236,13 +241,18 @@
             // 
             // buttonClient
             // 
+            this.buttonClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
             this.buttonClient.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonClient.FlatAppearance.BorderSize = 0;
+            this.buttonClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClient.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonClient.ForeColor = System.Drawing.Color.Snow;
             this.buttonClient.Location = new System.Drawing.Point(0, 128);
             this.buttonClient.Name = "buttonClient";
             this.buttonClient.Size = new System.Drawing.Size(222, 29);
             this.buttonClient.TabIndex = 4;
             this.buttonClient.Text = "Connect ";
-            this.buttonClient.UseVisualStyleBackColor = true;
+            this.buttonClient.UseVisualStyleBackColor = false;
             this.buttonClient.Click += new System.EventHandler(this.buttonClient_Click);
             // 
             // panel3
@@ -261,55 +271,71 @@
             // 
             // textBoxUserName
             // 
-            this.textBoxUserName.Location = new System.Drawing.Point(70, 91);
+            this.textBoxUserName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(34)))), ((int)(((byte)(58)))));
+            this.textBoxUserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxUserName.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxUserName.ForeColor = System.Drawing.Color.Snow;
+            this.textBoxUserName.Location = new System.Drawing.Point(88, 91);
             this.textBoxUserName.Name = "textBoxUserName";
-            this.textBoxUserName.Size = new System.Drawing.Size(100, 23);
+            this.textBoxUserName.Size = new System.Drawing.Size(120, 20);
             this.textBoxUserName.TabIndex = 5;
             this.textBoxUserName.TextChanged += new System.EventHandler(this.textBoxUserName_TextChanged);
             // 
             // labelUserName
             // 
             this.labelUserName.AutoSize = true;
+            this.labelUserName.BackColor = System.Drawing.Color.Transparent;
+            this.labelUserName.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelUserName.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelUserName.Location = new System.Drawing.Point(3, 94);
+            this.labelUserName.Location = new System.Drawing.Point(3, 91);
             this.labelUserName.Name = "labelUserName";
-            this.labelUserName.Size = new System.Drawing.Size(62, 15);
+            this.labelUserName.Size = new System.Drawing.Size(78, 20);
             this.labelUserName.TabIndex = 4;
             this.labelUserName.Text = "UserName";
             // 
             // textBoxPort
             // 
-            this.textBoxPort.Location = new System.Drawing.Point(70, 50);
+            this.textBoxPort.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(34)))), ((int)(((byte)(58)))));
+            this.textBoxPort.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxPort.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxPort.ForeColor = System.Drawing.Color.Snow;
+            this.textBoxPort.Location = new System.Drawing.Point(88, 50);
             this.textBoxPort.Name = "textBoxPort";
-            this.textBoxPort.Size = new System.Drawing.Size(100, 23);
+            this.textBoxPort.Size = new System.Drawing.Size(120, 20);
             this.textBoxPort.TabIndex = 3;
             this.textBoxPort.TextChanged += new System.EventHandler(this.textBoxPort_TextChanged);
             // 
             // labelPort
             // 
             this.labelPort.AutoSize = true;
+            this.labelPort.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.labelPort.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.labelPort.Location = new System.Drawing.Point(16, 53);
+            this.labelPort.Location = new System.Drawing.Point(21, 50);
             this.labelPort.Name = "labelPort";
-            this.labelPort.Size = new System.Drawing.Size(35, 15);
+            this.labelPort.Size = new System.Drawing.Size(44, 20);
             this.labelPort.TabIndex = 2;
             this.labelPort.Text = "PORT";
             // 
             // LabelIP
             // 
             this.LabelIP.AutoSize = true;
+            this.LabelIP.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.LabelIP.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.LabelIP.Location = new System.Drawing.Point(34, 14);
+            this.LabelIP.Location = new System.Drawing.Point(32, 9);
             this.LabelIP.Name = "LabelIP";
-            this.LabelIP.Size = new System.Drawing.Size(17, 15);
+            this.LabelIP.Size = new System.Drawing.Size(21, 20);
             this.LabelIP.TabIndex = 1;
             this.LabelIP.Text = "IP";
             // 
             // textBoxIP
             // 
-            this.textBoxIP.Location = new System.Drawing.Point(70, 11);
+            this.textBoxIP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(34)))), ((int)(((byte)(58)))));
+            this.textBoxIP.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxIP.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBoxIP.ForeColor = System.Drawing.Color.Snow;
+            this.textBoxIP.Location = new System.Drawing.Point(88, 10);
             this.textBoxIP.Name = "textBoxIP";
-            this.textBoxIP.Size = new System.Drawing.Size(100, 23);
+            this.textBoxIP.Size = new System.Drawing.Size(120, 20);
             this.textBoxIP.TabIndex = 0;
             this.textBoxIP.TextChanged += new System.EventHandler(this.textBoxIP_TextChanged);
             // 
