@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fabian\\Desktop\\GitChat\\ConsoleApp1\\ServidorConsola.csproj": {}
+    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fabian\\Desktop\\GitChat\\ConsoleApp1\\ServidorConsola.csproj": {
+    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabian\\Desktop\\GitChat\\ConsoleApp1\\ServidorConsola.csproj",
+        "projectUniqueName": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
         "projectName": "ServidorConsola",
-        "projectPath": "C:\\Users\\Fabian\\Desktop\\GitChat\\ConsoleApp1\\ServidorConsola.csproj",
-        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabian\\Desktop\\GitChat\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Fabian\\Desktop\\GitChat\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
-                "projectPath": "C:\\Users\\Fabian\\Desktop\\GitChat\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj"
+              "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj"
               }
             }
           }
@@ -53,21 +57,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Fabian\\Desktop\\GitChat\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
+    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabian\\Desktop\\GitChat\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+        "projectUniqueName": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
         "projectName": "ProyectoCodigoLimpioClient",
-        "projectPath": "C:\\Users\\Fabian\\Desktop\\GitChat\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
-        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabian\\Desktop\\GitChat\\ProyectoCodigoLimpio\\obj\\",
+        "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,7 +128,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
