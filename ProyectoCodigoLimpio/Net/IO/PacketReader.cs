@@ -14,6 +14,10 @@ namespace ProyectoCodigoLimpioClient.Net.IO
         {
             _NetWorkStream = netWorkStream;
         }
+      /// <summary>
+      /// Funcion que permite convertir los mensajes binarios en string
+      /// </summary>
+      /// <returns></returns>
         public string ReadMessage()
         {
             byte[] messageBuffer;

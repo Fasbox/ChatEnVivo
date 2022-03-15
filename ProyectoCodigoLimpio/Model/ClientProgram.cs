@@ -27,6 +27,13 @@ namespace ProyectoCodigoLimpioClient.Model
         {
             _Client = new TcpClient();
         }
+        /// <summary>
+        /// Función que se encarga de crear la conexión con el servidor, para lo cual usamos ip y port, 
+        /// envia un mensaje al servidor con el nombre de usuario para crear al usuario
+        /// </summary>
+        /// <param name="userName"></param>
+        /// <param name="ip"></param>
+        /// <param name="port"></param>
         public void ConnectToServer(string userName, string ip, int port)
         {
             if (!_Client.Connected)
@@ -45,6 +52,10 @@ namespace ProyectoCodigoLimpioClient.Model
             }
         }
 
+        /// <summary>
+        /// Funcion para ver a cual codigo de operacion pertenece el mensaje que llega del servidor e invocar
+        /// el evento correspondiente a dicho codigo 
+        /// </summary>
         private void ReadPackets()
         {
             Task.Run(() =>
@@ -71,6 +82,11 @@ namespace ProyectoCodigoLimpioClient.Model
                 }
             });
         }
+
+        /// <summary>
+        /// Funcion para codificar , formatear y enviar el mensaje del cliente al servidor
+        /// </summary>
+        /// <param name="Message"></param>
         public void SendMessageToserver(string Message)
         {
             PacketBuilder messagePacket = new PacketBuilder();

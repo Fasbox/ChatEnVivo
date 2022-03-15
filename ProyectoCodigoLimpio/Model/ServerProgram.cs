@@ -14,6 +14,7 @@ namespace ProyectoCodigoLimpioClient.Model
     public class ServerProgram
     {
         public static List<User> _Users;
+
         private TcpListener Listener;
         public ServerProgram(string ip, int port)
         {
@@ -22,12 +23,17 @@ namespace ProyectoCodigoLimpioClient.Model
             Listener.Start();
             while (true)
             {
-                var client = new User(Listener.AcceptTcpClient());
-                _Users.Add(client);
+                // ciclo infinito que constentemente espera que un cliente se conecte para crearle un usuario y añadirlo a la lista
+                var newUser = new User(Listener.AcceptTcpClient());
+                _Users.Add(newUser);
                 BroadcastConnetion();
             }
 
         }
+
+        /// <summary>
+        /// Funcion para enviar un mensaje a cada usuario que pertenezca a la lista de usuarios, que un nuevo usuario ha ingresado al servidor
+        /// </summary>
         public static void BroadcastConnetion()
         {
             foreach (User user in _Users)
@@ -42,6 +48,11 @@ namespace ProyectoCodigoLimpioClient.Model
                 }
             }
         }
+
+        /// <summary>
+        /// Funcion que recibe el mensaje que envia un usuario al servidor y lo reenvia a cada usuario en la lista de usuarios
+        /// </summary>
+        /// <param name="message"></param>
         public static void BroadcastMessage(string message)
         {
 
@@ -53,6 +64,11 @@ namespace ProyectoCodigoLimpioClient.Model
                 user.ClientSocket?.Client.Send(messagePacket.GetPacketBytes());
             }
         }
+
+        /// <summary>
+        /// Funcion que envia un mensaje a cada usuario notificando que quien ha dejado el servidor
+        /// </summary>
+        /// <param name="userId"></param>
         public static void BroadcastDisconnect(string userId)
         {
             var disconnectedUser = _Users.Where(x => x.UserId.ToString() == userId).FirstOrDefault();

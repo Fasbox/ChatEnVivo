@@ -28,6 +28,9 @@ namespace ProyectoCodigoLimpioClient.Model
             Task.Run(() =>process());   
         }
 
+        /// <summary>
+        /// Funcion para controlar siempre los mensajes que llegan o capturar la salida de un cliente del servidor y poder cerrar la conexion adecuadamente
+        /// </summary>
         void process()
         {
             while (true)
