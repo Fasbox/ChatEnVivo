@@ -97,11 +97,12 @@
             this.headerLabel.BackColor = System.Drawing.Color.Transparent;
             this.headerLabel.Font = new System.Drawing.Font("Lucida Sans Unicode", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.headerLabel.ForeColor = System.Drawing.Color.White;
-            this.headerLabel.Location = new System.Drawing.Point(12, 2);
+            this.headerLabel.Location = new System.Drawing.Point(384, 4);
             this.headerLabel.Name = "headerLabel";
             this.headerLabel.Size = new System.Drawing.Size(103, 28);
             this.headerLabel.TabIndex = 1;
             this.headerLabel.Text = "ChuBox";
+            this.headerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.headerLabel.Click += new System.EventHandler(this.headerLabel_Click);
             // 
             // bottomChatPanel
@@ -241,7 +242,7 @@
             // 
             // buttonClient
             // 
-            this.buttonClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
+            this.buttonClient.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.buttonClient.Dock = System.Windows.Forms.DockStyle.Top;
             this.buttonClient.FlatAppearance.BorderSize = 0;
             this.buttonClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

@@ -13,3 +13,6 @@ C:\Users\Adrian\source\repos\ConsoleApp1\obj\Debug\net6.0\refint\ServidorConsola
 C:\Users\Adrian\source\repos\ConsoleApp1\obj\Debug\net6.0\ServidorConsola.pdb
 C:\Users\Adrian\source\repos\ConsoleApp1\obj\Debug\net6.0\ServidorConsola.genruntimeconfig.cache
 C:\Users\Adrian\source\repos\ConsoleApp1\obj\Debug\net6.0\ref\ServidorConsola.dll
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\net6.0\ServidorConsola.dll
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\net6.0\refint\ServidorConsola.dll
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\net6.0\ServidorConsola.pdb

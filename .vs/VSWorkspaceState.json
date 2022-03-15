@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ConsoleApp1"
+    "\\ProyectoCodigoLimpio",
+    "\\ProyectoCodigoLimpio\\UI"
   ],
-  "SelectedNode": "\\ConsoleApp1\\ConsoleApp1.sln",
+  "SelectedNode": "\\ProyectoCodigoLimpio\\UI\\Chat.cs",
   "PreviewInSolutionExplorer": false
 }
