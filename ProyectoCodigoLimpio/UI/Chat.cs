@@ -66,7 +66,7 @@ namespace TrackerUI
 
         private void textBox_MouseDown(object sender, MouseEventArgs e)
         {
-            textBox.Text = String.Empty;
+            //textBox.Text = String.Empty;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -108,7 +108,8 @@ namespace TrackerUI
         {
             //espacio para implementar que sucede cuando llega un mensaje desde el servidor
            var message = _Client.PacketReader.ReadMessage();
-            //listBoxMessagesReceived.Items.Add(message); 
+
+           //listBoxMessagesReceived.Items.Add(message); 
         }
 
         private void UserConnected()
@@ -149,6 +150,7 @@ namespace TrackerUI
         {
             _Message = $"{_UserName}: " + _Message;
             _Client.SendMessageToserver(_Message);
+            listBoxMessagesReceived.Items.Add(_Message); 
             textBox.Text = String.Empty; 
         }
 

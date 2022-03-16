@@ -32,7 +32,7 @@ namespace ProyectoCodigoLimpioClient.Net.IO
         {
             int messageLength = message.Length;
             _MStream.Write(BitConverter.GetBytes(messageLength));
-            _MStream.Write(Encoding.UTF8.GetBytes(message));
+            _MStream.Write(Encoding.ASCII.GetBytes(message));
         }
         /// <summary>
         /// Funcion para obtener el array de bytes que estan guardados en el memoryStream

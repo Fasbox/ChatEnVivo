@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Chat));
             this.headerPanel = new System.Windows.Forms.Panel();
             this.exitButton = new System.Windows.Forms.Button();
@@ -35,8 +36,6 @@
             this.bottomChatPanel = new System.Windows.Forms.Panel();
             this.sendButton = new System.Windows.Forms.Button();
             this.textBox = new System.Windows.Forms.TextBox();
-            this.messagesSetPanel = new System.Windows.Forms.Panel();
-            this.listBoxMessagesReceived = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.profileLabel = new System.Windows.Forms.Label();
@@ -51,13 +50,17 @@
             this.labelPort = new System.Windows.Forms.Label();
             this.LabelIP = new System.Windows.Forms.Label();
             this.textBoxIP = new System.Windows.Forms.TextBox();
+            this.listBoxMessagesReceived = new System.Windows.Forms.ListBox();
+            this.serverProgramBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.messagesSetPanel = new System.Windows.Forms.Panel();
             this.headerPanel.SuspendLayout();
             this.bottomChatPanel.SuspendLayout();
-            this.messagesSetPanel.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilePictureBox)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.serverProgramBindingSource)).BeginInit();
+            this.messagesSetPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // headerPanel
@@ -144,29 +147,6 @@
             this.textBox.Text = "Type Something";
             this.textBox.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             this.textBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.textBox_MouseDown);
-            // 
-            // messagesSetPanel
-            // 
-            this.messagesSetPanel.Controls.Add(this.listBoxMessagesReceived);
-            this.messagesSetPanel.Location = new System.Drawing.Point(245, 137);
-            this.messagesSetPanel.Name = "messagesSetPanel";
-            this.messagesSetPanel.Size = new System.Drawing.Size(672, 341);
-            this.messagesSetPanel.TabIndex = 2;
-            // 
-            // listBoxMessagesReceived
-            // 
-            this.listBoxMessagesReceived.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
-            this.listBoxMessagesReceived.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBoxMessagesReceived.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listBoxMessagesReceived.ForeColor = System.Drawing.Color.Snow;
-            this.listBoxMessagesReceived.FormattingEnabled = true;
-            this.listBoxMessagesReceived.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.listBoxMessagesReceived.ItemHeight = 15;
-            this.listBoxMessagesReceived.Location = new System.Drawing.Point(0, 0);
-            this.listBoxMessagesReceived.Name = "listBoxMessagesReceived";
-            this.listBoxMessagesReceived.SelectionMode = System.Windows.Forms.SelectionMode.None;
-            this.listBoxMessagesReceived.Size = new System.Drawing.Size(672, 341);
-            this.listBoxMessagesReceived.TabIndex = 0;
             // 
             // panel1
             // 
@@ -339,6 +319,33 @@
             this.textBoxIP.TabIndex = 0;
             this.textBoxIP.TextChanged += new System.EventHandler(this.textBoxIP_TextChanged);
             // 
+            // listBoxMessagesReceived
+            // 
+            this.listBoxMessagesReceived.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
+            this.listBoxMessagesReceived.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBoxMessagesReceived.Dock = System.Windows.Forms.DockStyle.Left;
+            this.listBoxMessagesReceived.ForeColor = System.Drawing.Color.Snow;
+            this.listBoxMessagesReceived.FormattingEnabled = true;
+            this.listBoxMessagesReceived.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.listBoxMessagesReceived.ItemHeight = 15;
+            this.listBoxMessagesReceived.Location = new System.Drawing.Point(0, 0);
+            this.listBoxMessagesReceived.Name = "listBoxMessagesReceived";
+            this.listBoxMessagesReceived.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.listBoxMessagesReceived.Size = new System.Drawing.Size(672, 341);
+            this.listBoxMessagesReceived.TabIndex = 0;
+            // 
+            // serverProgramBindingSource
+            // 
+            this.serverProgramBindingSource.DataSource = typeof(ProyectoCodigoLimpioClient.Model.ServerProgram);
+            // 
+            // messagesSetPanel
+            // 
+            this.messagesSetPanel.Controls.Add(this.listBoxMessagesReceived);
+            this.messagesSetPanel.Location = new System.Drawing.Point(245, 137);
+            this.messagesSetPanel.Name = "messagesSetPanel";
+            this.messagesSetPanel.Size = new System.Drawing.Size(672, 341);
+            this.messagesSetPanel.TabIndex = 2;
+            // 
             // Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -359,13 +366,14 @@
             this.headerPanel.PerformLayout();
             this.bottomChatPanel.ResumeLayout(false);
             this.bottomChatPanel.PerformLayout();
-            this.messagesSetPanel.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilePictureBox)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.serverProgramBindingSource)).EndInit();
+            this.messagesSetPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -377,7 +385,6 @@
         private Button exitButton;
         private Panel bottomChatPanel;
         private TextBox textBox;
-        private Panel messagesSetPanel;
         private Button sendButton;
         private Panel panel1;
         private Label label1;
@@ -394,5 +401,7 @@
         private Label labelUserName;
         private ListBox ListBoxUsers;
         private ListBox listBoxMessagesReceived;
+        private BindingSource serverProgramBindingSource;
+        private Panel messagesSetPanel;
     }
 }
