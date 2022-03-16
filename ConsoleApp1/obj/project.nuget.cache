@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ptd8q5q4emjOje/8PhZuY6f2itYnJM2KNo8eidhY+tDczmLHRr/P3KKGh/b81p8BCwDHeZP7z+ZJvjvebabmDg==",
-  "success": false,
+  "dgSpecHash": "khOQNiCKigxWnpys5lxKwXIsQUI6BQfZXwmKSzIMU3ZXryLQZoZZRQzilHNdyFJz+jl6ADwa3SeOZVjM9vG/Sw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project ProyectoCodigoLimpioClient is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project ProyectoCodigoLimpioClient supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
-      "libraryId": "ProyectoCodigoLimpioClient",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

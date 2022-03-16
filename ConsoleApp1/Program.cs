@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using ProyectoCodigoLimpioClient.Model;
 /// <summary>
 /// Programa de consola par iniciar el servidor remoto y poder conectar los clientes
 /// </summary>
@@ -12,12 +13,13 @@ if (respuesta == "1")
         {
             Console.WriteLine("Ingrese la Ip: ");
             string ip = Console.ReadLine();
+            int port;
             while (true)
             {
                 try
                 {
                     Console.WriteLine("Ingrese el puerto: ");
-                    int port = Int32.Parse(Console.ReadLine());
+                    port = Int32.Parse(Console.ReadLine());
                     break;
                 }
                 catch(Exception e)
@@ -29,7 +31,7 @@ if (respuesta == "1")
                 
             }
             var servidor = new ServerProgram(ip, port);
-            break;
+            Console.WriteLine("Esperando conexión....");
         }
         catch (Exception e)
         {

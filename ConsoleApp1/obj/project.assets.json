@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "ProyectoCodigoLimpioClient/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/ProyectoCodigoLimpioClient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ProyectoCodigoLimpioClient.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "ProyectoCodigoLimpioClient/1.0.0": {
-      "type": "project",
-      "path": "../ProyectoCodigoLimpio/ProyectoCodigoLimpioClient.csproj",
-      "msbuildProject": "../ProyectoCodigoLimpio/ProyectoCodigoLimpioClient.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "ProyectoCodigoLimpioClient >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Adrian\\.nuget\\packages\\": {},
@@ -57,11 +38,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
-              "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -83,19 +60,13 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Project ProyectoCodigoLimpioClient is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project ProyectoCodigoLimpioClient supports: net6.0-windows7.0 (.NETCoreApp,Version=v6.0)",
-      "libraryId": "ProyectoCodigoLimpioClient",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

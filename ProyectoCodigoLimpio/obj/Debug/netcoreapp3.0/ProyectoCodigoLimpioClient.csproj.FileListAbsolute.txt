@@ -1,0 +1,8 @@
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\ProyectoCodigoLimpioClient.csproj.AssemblyReference.cache
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\ProyectoCodigoLimpioClient.Properties.Resources.resources
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\TrackerUI.Chat.resources
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\ProyectoCodigoLimpioClient.csproj.GenerateResource.cache
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\ProyectoCodigoLimpioClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\ProyectoCodigoLimpioClient.AssemblyInfoInputs.cache
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\ProyectoCodigoLimpioClient.AssemblyInfo.cs
+C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\netcoreapp3.0\ProyectoCodigoLimpioClient.csproj.CoreCompileInputs.cache
