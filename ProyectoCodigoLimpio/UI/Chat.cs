@@ -18,12 +18,10 @@ namespace TrackerUI
 
         private string _Message;
 
-        public ObservableCollection<string> Messages;
         
         public Chat()
         {
             InitializeComponent();
-            Messages = new ObservableCollection<string>();
         }   
 
         private void headerLabel_Click(object sender, EventArgs e)
