@@ -156,5 +156,10 @@ namespace TrackerUI
         {
             _UserName = textBoxUserName.Text;
         }
+
+        private void ListBoxUsers_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
