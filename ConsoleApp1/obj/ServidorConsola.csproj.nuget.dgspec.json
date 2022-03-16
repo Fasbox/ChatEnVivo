@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj": {}
+    "C:\\Users\\Fabian\\Source\\Repos\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj": {
+    "C:\\Users\\Fabian\\Source\\Repos\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
+        "projectUniqueName": "C:\\Users\\Fabian\\Source\\Repos\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
         "projectName": "ServidorConsola",
-        "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
-        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\Fabian\\Source\\Repos\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
+        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fabian\\Source\\Repos\\ChatEnVivo\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

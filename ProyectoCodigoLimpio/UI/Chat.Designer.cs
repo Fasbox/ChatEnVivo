@@ -224,31 +224,30 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 32);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(222, 545);
+            this.panel2.Size = new System.Drawing.Size(229, 545);
             this.panel2.TabIndex = 4;
             // 
             // ListBoxUsers
             // 
             this.ListBoxUsers.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
             this.ListBoxUsers.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.ListBoxUsers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListBoxUsers.ForeColor = System.Drawing.Color.Snow;
             this.ListBoxUsers.FormattingEnabled = true;
             this.ListBoxUsers.ItemHeight = 15;
-            this.ListBoxUsers.Location = new System.Drawing.Point(0, 157);
+            this.ListBoxUsers.Location = new System.Drawing.Point(3, 158);
             this.ListBoxUsers.Name = "ListBoxUsers";
-            this.ListBoxUsers.Size = new System.Drawing.Size(222, 388);
+            this.ListBoxUsers.Size = new System.Drawing.Size(222, 360);
             this.ListBoxUsers.TabIndex = 6;
+            this.ListBoxUsers.SelectedIndexChanged += new System.EventHandler(this.ListBoxUsers_SelectedIndexChanged);
             // 
             // buttonClient
             // 
-            this.buttonClient.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.buttonClient.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonClient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
             this.buttonClient.FlatAppearance.BorderSize = 0;
             this.buttonClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonClient.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.buttonClient.ForeColor = System.Drawing.Color.Snow;
-            this.buttonClient.Location = new System.Drawing.Point(0, 128);
+            this.buttonClient.Location = new System.Drawing.Point(3, 124);
             this.buttonClient.Name = "buttonClient";
             this.buttonClient.Size = new System.Drawing.Size(222, 29);
             this.buttonClient.TabIndex = 4;
@@ -267,7 +266,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(222, 128);
+            this.panel3.Size = new System.Drawing.Size(229, 118);
             this.panel3.TabIndex = 0;
             // 
             // textBoxUserName
