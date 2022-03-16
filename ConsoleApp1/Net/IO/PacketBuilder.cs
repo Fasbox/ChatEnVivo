@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoCodigoLimpioClient.Net.IO
+namespace ServidorConsola.Net.IO
 {
     public class PacketBuilder
     {
         MemoryStream _MStream;
         public PacketBuilder()
         {
-            _MStream = new MemoryStream();    
+            _MStream = new MemoryStream();
         }
 
         /// <summary>

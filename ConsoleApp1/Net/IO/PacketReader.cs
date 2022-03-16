@@ -5,7 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoCodigoLimpioClient.Net.IO
+namespace ServidorConsola.Net.IO
 {
     public class PacketReader : BinaryReader
     {
@@ -14,10 +14,10 @@ namespace ProyectoCodigoLimpioClient.Net.IO
         {
             _NetWorkStream = netWorkStream;
         }
-      /// <summary>
-      /// Funcion que permite convertir los mensajes binarios en string
-      /// </summary>
-      /// <returns></returns>
+        /// <summary>
+        /// Funcion que permite convertir los mensajes binarios en string
+        /// </summary>
+        /// <returns></returns>
         public string ReadMessage()
         {
             byte[] messageBuffer;

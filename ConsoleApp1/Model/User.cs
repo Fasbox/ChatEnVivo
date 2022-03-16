@@ -1,4 +1,4 @@
-﻿using ProyectoCodigoLimpioClient.Net.IO;
+﻿using ServidorConsola.Net.IO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProyectoCodigoLimpioClient.Model
+namespace ServidorConsola.Model
 {
     public class User
     {
@@ -15,8 +15,8 @@ namespace ProyectoCodigoLimpioClient.Model
         public Guid UserId { get; set; }
 
         private PacketReader _PacketReader;
-        public TcpClient ClientSocket { get; set;}
-       public User(TcpClient client)
+        public TcpClient ClientSocket { get; set; }
+        public User(TcpClient client)
         {
             ClientSocket = client;
             UserId = Guid.NewGuid();
@@ -25,7 +25,7 @@ namespace ProyectoCodigoLimpioClient.Model
             UserName = _PacketReader.ReadMessage();
             Console.WriteLine($"[{DateTime.Now}]: Client has connected with the username: {UserName}");
 
-            Task.Run(() =>process());   
+            Task.Run(() => process());
         }
 
         /// <summary>
@@ -41,16 +41,16 @@ namespace ProyectoCodigoLimpioClient.Model
                     switch (opcode)
                     {
                         case 5:
-                              var msg = _PacketReader.ReadMessage();
-                              Console.WriteLine($"[{DateTime.Now}]: Message Received! {msg}");
-                              ServerProgram.BroadcastMessage($"[{DateTime.Now}]: {msg}");
+                            var msg = _PacketReader.ReadMessage();
+                            Console.WriteLine($"[{DateTime.Now}]: Message Received! {msg}");
+                            ServerProgram.BroadcastMessage($"[{DateTime.Now}]: {msg}");
                             break;
                         default:
                             break;
                     }
                 }
-                catch (Exception ex) 
-                { 
+                catch (Exception ex)
+                {
                     Console.WriteLine($"[{UserId.ToString()}]: Disconnected!");
                     ServerProgram.BroadcastDisconnect(UserId.ToString());
                     ClientSocket.Close();

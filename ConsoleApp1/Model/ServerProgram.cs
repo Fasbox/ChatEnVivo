@@ -7,9 +7,9 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using ProyectoCodigoLimpioClient.Net.IO;
+using ServidorConsola.Net.IO;
 
-namespace ProyectoCodigoLimpioClient.Model
+namespace ServidorConsola.Model
 {
     public class ServerProgram
     {
@@ -21,6 +21,7 @@ namespace ProyectoCodigoLimpioClient.Model
             _Users = new List<User>();
             Listener = new TcpListener(IPAddress.Parse(ip), port);
             Listener.Start();
+            Console.WriteLine("Esperando conexión");
             while (true)
             {
                 // ciclo infinito que constentemente espera que un cliente se conecte para crearle un usuario y añadirlo a la lista

@@ -21,6 +21,7 @@ namespace ProyectoCodigoLimpioClient.Model
             _Users = new List<User>();
             Listener = new TcpListener(IPAddress.Parse(ip), port);
             Listener.Start();
+            Console.WriteLine("Esperando conexión");
             while (true)
             {
                 // ciclo infinito que constentemente espera que un cliente se conecte para crearle un usuario y añadirlo a la lista

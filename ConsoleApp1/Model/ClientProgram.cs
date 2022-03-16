@@ -7,9 +7,9 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using ProyectoCodigoLimpioClient.Net.IO;
+using ServidorConsola.Net.IO;
 
-namespace ProyectoCodigoLimpioClient.Model
+namespace ServidorConsola.Model
 {
     public class ClientProgram
     {

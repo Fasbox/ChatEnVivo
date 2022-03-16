@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using ProyectoCodigoLimpioClient.Model;
+using ServidorConsola.Model;
 /// <summary>
 /// Programa de consola par iniciar el servidor remoto y poder conectar los clientes
 /// </summary>
