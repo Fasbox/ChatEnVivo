@@ -18,10 +18,14 @@ namespace TrackerUI
 
         private string _Message;
 
-        
+        delegate void ActualizarMensajes(String mensaje);
+
+        delegate void ActualizarContactos(String nombre);  
         public Chat()
         {
+            
             InitializeComponent();
+            sendButton.Enabled = false;
         }   
 
         private void headerLabel_Click(object sender, EventArgs e)
@@ -66,7 +70,7 @@ namespace TrackerUI
 
         private void textBox_MouseDown(object sender, MouseEventArgs e)
         {
-            //textBox.Text = String.Empty;
+            textBox.Text = String.Empty;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -101,25 +105,60 @@ namespace TrackerUI
 
         private void UserDisconnect()
         {
-           //espacio para implementar que pasa cuando se desconecta un usuario
+           String ContactoDesconectado = _Client.PacketReader.ReadMessage();
+           BorrardeListaContactos(ContactoDesconectado);
         }
 
         private void MessageReceived()
         {
-            //espacio para implementar que sucede cuando llega un mensaje desde el servidor
+           
            var message = _Client.PacketReader.ReadMessage();
-
-           //listBoxMessagesReceived.Items.Add(message); 
+            MostrarMensaje(message);
+           
+        }
+        private void MostrarMensaje(String mensaje) 
+        {
+            if (listBoxMessagesReceived.InvokeRequired)
+            {
+                ActualizarMensajes delegado = new ActualizarMensajes(MostrarMensaje);
+                Invoke(delegado, mensaje);
+            }
+            else {
+                listBoxMessagesReceived.Items.Add(mensaje);
+            }
         }
 
         private void UserConnected()
         {
-            //espacio para implementar que pasa cuando un usario se conecta al servidor
-           /*Dictionary<string,string> user = new();
-            user.Add("UserName", _Client.PacketReader.ReadMessage());
-            user.Add("UserId", _Client.PacketReader.ReadMessage());
-            ListBoxUsers.Items.Add(user);
-            ListBoxUsers.Update();*/
+            var nombre = _Client.PacketReader.ReadMessage();
+            if (!ListBoxUsers.Items.Contains(nombre)) {
+                AñadirListaContactos(nombre);
+            }
+  
+        }
+
+        private void AñadirListaContactos(String nombre) {
+            if (ListBoxUsers.InvokeRequired)
+            {
+                ActualizarContactos delegado = new ActualizarContactos(AñadirListaContactos);
+                Invoke(delegado, nombre);
+            }
+            else {
+                ListBoxUsers.Items.Add(nombre);
+            }
+        }
+        private void BorrardeListaContactos(String nombre)
+        {
+            if (ListBoxUsers.InvokeRequired)
+            {
+                ActualizarContactos delegado = new ActualizarContactos(BorrardeListaContactos);
+                Invoke(delegado, nombre);
+            }
+            else
+            {
+                ListBoxUsers.Items.Remove(nombre);
+                ListBoxUsers.Refresh();
+            }
         }
 
         private void headerPanel_Paint(object sender, PaintEventArgs e)
@@ -144,13 +183,17 @@ namespace TrackerUI
         private void textBox_TextChanged(object sender, EventArgs e)
         {
             _Message = textBox.Text;
+            if (_Message == "") {
+                sendButton.Enabled = false;
+                return;
+            }
+            sendButton.Enabled = true;
         }
 
         private void sendButton_Click(object sender, EventArgs e)
         {
             _Message = $"{_UserName}: " + _Message;
             _Client.SendMessageToserver(_Message);
-            listBoxMessagesReceived.Items.Add(_Message); 
             textBox.Text = String.Empty; 
         }
 

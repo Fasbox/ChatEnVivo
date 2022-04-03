@@ -122,6 +122,7 @@
             this.sendButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
             this.sendButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("sendButton.BackgroundImage")));
             this.sendButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.sendButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.sendButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.sendButton.FlatAppearance.BorderSize = 0;
             this.sendButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

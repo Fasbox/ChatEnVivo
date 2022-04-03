@@ -44,9 +44,9 @@ namespace ProyectoCodigoLimpioClient.Model
                     PacketBuilder broadCastPacket = new PacketBuilder();
                     broadCastPacket.WriteOpCode(1);
                     broadCastPacket.WriteString(userIterator.UserName);
-                    broadCastPacket.WriteString(userIterator.UserId.ToString());
                     user.ClientSocket.Client.Send(broadCastPacket.GetPacketBytes());
                 }
+                BroadcastMessage($"[{_Users[_Users.Count-1].UserName}] Connected.");
             }
         }
 
@@ -79,7 +79,7 @@ namespace ProyectoCodigoLimpioClient.Model
             {
                 PacketBuilder broadcastPacket = new PacketBuilder();
                 broadcastPacket.WriteOpCode(10);
-                broadcastPacket.WriteString(userId);
+                broadcastPacket.WriteString(disconnectedUser.UserName);
                 user.ClientSocket?.Client.Send(broadcastPacket.GetPacketBytes());
             }
             BroadcastMessage($"[{disconnectedUser.UserName}] disconnected.");
