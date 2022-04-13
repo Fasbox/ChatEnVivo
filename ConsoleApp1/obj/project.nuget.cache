@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "khOQNiCKigxWnpys5lxKwXIsQUI6BQfZXwmKSzIMU3ZXryLQZoZZRQzilHNdyFJz+jl6ADwa3SeOZVjM9vG/Sw==",
+  "dgSpecHash": "VlO56TnWNipTdgSS3gDpSL0ymokyZSWWCnEGNXzCrjSxzXaXVXwK/YuJ36wsBatDqHPl8YnO+vxW1z2rvBVOlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ConsoleApp1\\ServidorConsola.csproj",
+  "projectFilePath": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ConsoleApp1\\ServidorConsola.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

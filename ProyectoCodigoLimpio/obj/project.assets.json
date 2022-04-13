@@ -3993,24 +3993,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adrian\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Fabian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+      "projectUniqueName": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
       "projectName": "ProyectoCodigoLimpioClient",
-      "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
-      "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\obj\\",
+      "projectPath": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+      "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ProyectoCodigoLimpio\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4067,7 +4062,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
