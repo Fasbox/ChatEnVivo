@@ -104,6 +104,7 @@
             this.textBoxContraseña.Location = new System.Drawing.Point(26, 282);
             this.textBoxContraseña.Multiline = true;
             this.textBoxContraseña.Name = "textBoxContraseña";
+            this.textBoxContraseña.PasswordChar = '•';
             this.textBoxContraseña.Size = new System.Drawing.Size(224, 28);
             this.textBoxContraseña.TabIndex = 3;
             // 
@@ -126,6 +127,7 @@
             this.textBoxRepetirContraseña.Location = new System.Drawing.Point(26, 347);
             this.textBoxRepetirContraseña.Multiline = true;
             this.textBoxRepetirContraseña.Name = "textBoxRepetirContraseña";
+            this.textBoxRepetirContraseña.PasswordChar = '•';
             this.textBoxRepetirContraseña.Size = new System.Drawing.Size(224, 28);
             this.textBoxRepetirContraseña.TabIndex = 3;
             // 
@@ -142,6 +144,7 @@
             this.checkBoxMostrarContraseña.TabIndex = 4;
             this.checkBoxMostrarContraseña.Text = "Mostrar Contraseña";
             this.checkBoxMostrarContraseña.UseVisualStyleBackColor = true;
+            this.checkBoxMostrarContraseña.CheckedChanged += new System.EventHandler(this.checkBoxMostrarContraseña_CheckedChanged);
             // 
             // buttonRegistrarse
             // 
@@ -156,6 +159,7 @@
             this.buttonRegistrarse.TabIndex = 5;
             this.buttonRegistrarse.Text = "REGISTRARSE";
             this.buttonRegistrarse.UseVisualStyleBackColor = false;
+            this.buttonRegistrarse.Click += new System.EventHandler(this.buttonRegistrarse_Click);
             // 
             // labelYaTienesCuenta
             // 
@@ -180,6 +184,7 @@
             this.buttonVolverAlInicio.TabIndex = 5;
             this.buttonVolverAlInicio.Text = "INICIAR SESIÓN";
             this.buttonVolverAlInicio.UseVisualStyleBackColor = false;
+            this.buttonVolverAlInicio.Click += new System.EventHandler(this.buttonVolverAlInicio_Click);
             // 
             // RegistroForm
             // 
@@ -206,6 +211,7 @@
             this.Name = "RegistroForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RegistroForm";
+            this.Load += new System.EventHandler(this.RegistroForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

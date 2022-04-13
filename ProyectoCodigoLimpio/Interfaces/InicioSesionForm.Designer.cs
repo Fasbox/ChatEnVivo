@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonVolverAlInicio = new System.Windows.Forms.Button();
-            this.buttonRegistrarse = new System.Windows.Forms.Button();
+            this.buttonIrAlRegistro = new System.Windows.Forms.Button();
+            this.buttonIniciarSesion = new System.Windows.Forms.Button();
             this.checkBoxMostrarContraseña = new System.Windows.Forms.CheckBox();
             this.textBoxContraseña = new System.Windows.Forms.TextBox();
             this.labelYaTienesCuenta = new System.Windows.Forms.Label();
@@ -41,32 +41,34 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
-            // buttonVolverAlInicio
+            // buttonIrAlRegistro
             // 
-            this.buttonVolverAlInicio.BackColor = System.Drawing.Color.White;
-            this.buttonVolverAlInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonVolverAlInicio.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonVolverAlInicio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
-            this.buttonVolverAlInicio.Location = new System.Drawing.Point(30, 446);
-            this.buttonVolverAlInicio.Name = "buttonVolverAlInicio";
-            this.buttonVolverAlInicio.Size = new System.Drawing.Size(224, 36);
-            this.buttonVolverAlInicio.TabIndex = 16;
-            this.buttonVolverAlInicio.Text = "REGISTRARSE";
-            this.buttonVolverAlInicio.UseVisualStyleBackColor = false;
+            this.buttonIrAlRegistro.BackColor = System.Drawing.Color.White;
+            this.buttonIrAlRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonIrAlRegistro.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonIrAlRegistro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
+            this.buttonIrAlRegistro.Location = new System.Drawing.Point(30, 446);
+            this.buttonIrAlRegistro.Name = "buttonIrAlRegistro";
+            this.buttonIrAlRegistro.Size = new System.Drawing.Size(224, 36);
+            this.buttonIrAlRegistro.TabIndex = 16;
+            this.buttonIrAlRegistro.Text = "REGISTRARSE";
+            this.buttonIrAlRegistro.UseVisualStyleBackColor = false;
+            this.buttonIrAlRegistro.Click += new System.EventHandler(this.buttonIrAlRegistro_Click);
             // 
-            // buttonRegistrarse
+            // buttonIniciarSesion
             // 
-            this.buttonRegistrarse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
-            this.buttonRegistrarse.FlatAppearance.BorderSize = 0;
-            this.buttonRegistrarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRegistrarse.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.buttonRegistrarse.ForeColor = System.Drawing.Color.White;
-            this.buttonRegistrarse.Location = new System.Drawing.Point(30, 375);
-            this.buttonRegistrarse.Name = "buttonRegistrarse";
-            this.buttonRegistrarse.Size = new System.Drawing.Size(224, 36);
-            this.buttonRegistrarse.TabIndex = 17;
-            this.buttonRegistrarse.Text = "INICIAR SESIÓN";
-            this.buttonRegistrarse.UseVisualStyleBackColor = false;
+            this.buttonIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
+            this.buttonIniciarSesion.FlatAppearance.BorderSize = 0;
+            this.buttonIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonIniciarSesion.Font = new System.Drawing.Font("Nirmala UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonIniciarSesion.ForeColor = System.Drawing.Color.White;
+            this.buttonIniciarSesion.Location = new System.Drawing.Point(30, 375);
+            this.buttonIniciarSesion.Name = "buttonIniciarSesion";
+            this.buttonIniciarSesion.Size = new System.Drawing.Size(224, 36);
+            this.buttonIniciarSesion.TabIndex = 17;
+            this.buttonIniciarSesion.Text = "INICIAR SESIÓN";
+            this.buttonIniciarSesion.UseVisualStyleBackColor = false;
+            this.buttonIniciarSesion.Click += new System.EventHandler(this.buttonIniciarSesion_Click);
             // 
             // checkBoxMostrarContraseña
             // 
@@ -81,6 +83,7 @@
             this.checkBoxMostrarContraseña.TabIndex = 15;
             this.checkBoxMostrarContraseña.Text = "Mostrar Contraseña";
             this.checkBoxMostrarContraseña.UseVisualStyleBackColor = true;
+            this.checkBoxMostrarContraseña.CheckedChanged += new System.EventHandler(this.checkBoxMostrarContraseña_CheckedChanged);
             // 
             // textBoxContraseña
             // 
@@ -90,6 +93,7 @@
             this.textBoxContraseña.Location = new System.Drawing.Point(30, 290);
             this.textBoxContraseña.Multiline = true;
             this.textBoxContraseña.Name = "textBoxContraseña";
+            this.textBoxContraseña.PasswordChar = '•';
             this.textBoxContraseña.Size = new System.Drawing.Size(224, 28);
             this.textBoxContraseña.TabIndex = 13;
             // 
@@ -163,8 +167,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(285, 544);
-            this.Controls.Add(this.buttonVolverAlInicio);
-            this.Controls.Add(this.buttonRegistrarse);
+            this.Controls.Add(this.buttonIrAlRegistro);
+            this.Controls.Add(this.buttonIniciarSesion);
             this.Controls.Add(this.checkBoxMostrarContraseña);
             this.Controls.Add(this.textBoxContraseña);
             this.Controls.Add(this.labelYaTienesCuenta);
@@ -179,6 +183,7 @@
             this.Name = "InicioSesionForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InicioSesionForm";
+            this.Load += new System.EventHandler(this.InicioSesionForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -187,8 +192,8 @@
 
         #endregion
 
-        private Button buttonVolverAlInicio;
-        private Button buttonRegistrarse;
+        private Button buttonIrAlRegistro;
+        private Button buttonIniciarSesion;
         private CheckBox checkBoxMostrarContraseña;
         private TextBox textBoxContraseña;
         private Label labelYaTienesCuenta;
