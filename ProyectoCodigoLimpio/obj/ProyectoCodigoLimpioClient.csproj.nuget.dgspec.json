@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[5.12.22, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
             "System.Reactive": {
               "target": "Package",
               "version": "[5.0.0, )"
