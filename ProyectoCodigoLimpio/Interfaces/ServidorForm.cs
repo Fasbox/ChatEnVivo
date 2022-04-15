@@ -20,12 +20,6 @@ namespace ProyectoCodigoLimpioClient.Interfaces
         }
 
 
-        public void go()
-        {
-            if (InvokeRequired)
-                Invoke(new Action(() => Application.Run(new InicioSesionForm())));
-        }
-
         private void buttonCrear_Click(object sender, EventArgs e)
         {
             if (textBoxIp.Text == "" || textBoxPuerto.Text == "")
