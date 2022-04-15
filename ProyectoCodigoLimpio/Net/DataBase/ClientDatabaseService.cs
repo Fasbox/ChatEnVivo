@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoCodigoLimpioClient.Net.DataBase
 {
-    public class ConexionClient
+    public class ClientDatabaseService
     {
         private MongoCollectionBase<LoggedUser> LoggedUsers;
-        public ConexionClient()
+        public ClientDatabaseService()
         {
             var pass = "AdminMongoAtlas";
             var databaseName = "ChuBox";
@@ -36,12 +36,21 @@ namespace ProyectoCodigoLimpioClient.Net.DataBase
             return lista.ToList();
         }
 
-        public LoggedUser ObtenerloggedUser(string password, string nickname)
+        public LoggedUser? ObtenerloggedUser(string password, string nickname)
         {
             var lista = LoggedUsers.Find(d => d.Password == password && d.Nickname == nickname);
+            if (lista.Count() == 0)
+            {
+                return null;
+            }
             return lista.ToList()[0];
         }
 
+        public bool LoggedUserExist(string nickname)
+        {
+            var lista = LoggedUsers.Find(d => d.Nickname == nickname);
+            return lista.ToList().Count != 0;
+        }
         public void UpdateLoggedUser(LoggedUser userToUpdate)
         {
             this.LoggedUsers.ReplaceOne(d => d.Id == userToUpdate.Id, userToUpdate);

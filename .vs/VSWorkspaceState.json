@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProyectoCodigoLimpio",
+    "\\ProyectoCodigoLimpio\\Interfaces",
+    "\\ProyectoCodigoLimpio\\Net",
+    "\\ProyectoCodigoLimpio\\Net\\DataBase"
   ],
-  "SelectedNode": "\\ConsoleApp1.sln",
+  "SelectedNode": "\\ProyectoCodigoLimpio\\Net\\DataBase\\ConexionClient.cs",
   "PreviewInSolutionExplorer": false
 }
