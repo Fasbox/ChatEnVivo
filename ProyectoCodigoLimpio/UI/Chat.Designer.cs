@@ -37,7 +37,7 @@
             this.sendButton = new System.Windows.Forms.Button();
             this.textBox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelBienvenido = new System.Windows.Forms.Label();
             this.profileLabel = new System.Windows.Forms.Label();
             this.profilePictureBox = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -106,7 +106,6 @@
             this.headerLabel.TabIndex = 1;
             this.headerLabel.Text = "ChuBox";
             this.headerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.headerLabel.Click += new System.EventHandler(this.headerLabel_Click);
             // 
             // bottomChatPanel
             // 
@@ -152,7 +151,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(6)))), ((int)(((byte)(57)))), ((int)(((byte)(110)))));
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.labelBienvenido);
             this.panel1.Controls.Add(this.profileLabel);
             this.panel1.Controls.Add(this.profilePictureBox);
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
@@ -160,19 +159,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(672, 93);
             this.panel1.TabIndex = 3;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // label1
+            // labelBienvenido
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Unicode", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(89, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 15);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Some user text here";
+            this.labelBienvenido.AutoSize = true;
+            this.labelBienvenido.BackColor = System.Drawing.Color.Transparent;
+            this.labelBienvenido.Font = new System.Drawing.Font("Lucida Sans Unicode", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelBienvenido.ForeColor = System.Drawing.Color.Silver;
+            this.labelBienvenido.Location = new System.Drawing.Point(89, 28);
+            this.labelBienvenido.Name = "labelBienvenido";
+            this.labelBienvenido.Size = new System.Drawing.Size(139, 15);
+            this.labelBienvenido.TabIndex = 3;
+            this.labelBienvenido.Text = "Bienvenido a Chubox";
             // 
             // profileLabel
             // 
@@ -195,7 +193,6 @@
             this.profilePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.profilePictureBox.TabIndex = 0;
             this.profilePictureBox.TabStop = false;
-            this.profilePictureBox.Click += new System.EventHandler(this.profilePictureBox_Click);
             // 
             // panel2
             // 
@@ -359,9 +356,10 @@
             this.Controls.Add(this.bottomChatPanel);
             this.Controls.Add(this.headerPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Chat";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Chat";
+            this.Text = "ChuBox";
             this.Load += new System.EventHandler(this.Chat_Load);
             this.headerPanel.ResumeLayout(false);
             this.headerPanel.PerformLayout();
@@ -388,7 +386,7 @@
         private TextBox textBox;
         private Button sendButton;
         private Panel panel1;
-        private Label label1;
+        private Label labelBienvenido;
         private Label profileLabel;
         private PictureBox profilePictureBox;
         private Panel panel2;

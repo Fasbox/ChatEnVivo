@@ -78,5 +78,10 @@ namespace ProyectoCodigoLimpioClient.Interfaces
         {
             Validar.SoloNumeros(e);
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(Environment.ExitCode);
+        }
     }
 }

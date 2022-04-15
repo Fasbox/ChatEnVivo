@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServidorForm));
             this.buttonCrear = new System.Windows.Forms.Button();
             this.textBoxPuerto = new System.Windows.Forms.TextBox();
             this.labelPuerto = new System.Windows.Forms.Label();
@@ -36,7 +37,9 @@
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.labelCrearServer = new System.Windows.Forms.Label();
             this.headerPanel = new System.Windows.Forms.Panel();
+            this.exitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.headerPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonCrear
@@ -121,6 +124,7 @@
             // 
             // headerPanel
             // 
+            this.headerPanel.Controls.Add(this.exitButton);
             this.headerPanel.Location = new System.Drawing.Point(-1, -1);
             this.headerPanel.Name = "headerPanel";
             this.headerPanel.Size = new System.Drawing.Size(286, 29);
@@ -128,6 +132,22 @@
             this.headerPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.headerPanel_MouseDown);
             this.headerPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.headerPanel_MouseMove);
             this.headerPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.headerPanel_MouseUp);
+            // 
+            // exitButton
+            // 
+            this.exitButton.BackColor = System.Drawing.Color.White;
+            this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.exitButton.FlatAppearance.BorderSize = 0;
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.exitButton.ForeColor = System.Drawing.Color.Black;
+            this.exitButton.Location = new System.Drawing.Point(228, 0);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(59, 32);
+            this.exitButton.TabIndex = 26;
+            this.exitButton.Text = "X";
+            this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // ServidorForm
             // 
@@ -144,10 +164,12 @@
             this.Controls.Add(this.pictureBoxLogo);
             this.Controls.Add(this.labelCrearServer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ServidorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ServidorForm";
+            this.Text = "ChuBox";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            this.headerPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -163,5 +185,6 @@
         private PictureBox pictureBoxLogo;
         private Label labelCrearServer;
         private Panel headerPanel;
+        private Button exitButton;
     }
 }

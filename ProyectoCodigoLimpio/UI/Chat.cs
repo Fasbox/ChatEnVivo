@@ -41,14 +41,9 @@ namespace TrackerUI
             }
         }   
 
-        private void headerLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void exitButton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Environment.Exit(Environment.ExitCode);
         }
 
         int mouseX = 0;
@@ -84,21 +79,6 @@ namespace TrackerUI
         private void textBox_MouseDown(object sender, MouseEventArgs e)
         {
             textBox.Text = String.Empty;
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void profilePictureBox_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void trackBar1_Scroll(object sender, EventArgs e)
-        {
-
         }
 
         private void buttonClient_Click(object sender, EventArgs e)
@@ -183,7 +163,7 @@ namespace TrackerUI
 
         private void Chat_Load(object sender, EventArgs e)
         {
-
+            profileLabel.Text = textBoxUserName.Text;
         }
         private void textBoxIP_TextChanged(object sender, EventArgs e)
         {

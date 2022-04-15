@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistroForm));
             this.labelComencemos = new System.Windows.Forms.Label();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.labelUsername = new System.Windows.Forms.Label();
@@ -40,6 +41,7 @@
             this.buttonRegistrarse = new System.Windows.Forms.Button();
             this.labelYaTienesCuenta = new System.Windows.Forms.Label();
             this.buttonVolverAlInicio = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -186,12 +188,29 @@
             this.buttonVolverAlInicio.UseVisualStyleBackColor = false;
             this.buttonVolverAlInicio.Click += new System.EventHandler(this.buttonVolverAlInicio_Click);
             // 
+            // exitButton
+            // 
+            this.exitButton.BackColor = System.Drawing.Color.White;
+            this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.exitButton.FlatAppearance.BorderSize = 0;
+            this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.exitButton.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.exitButton.ForeColor = System.Drawing.Color.Black;
+            this.exitButton.Location = new System.Drawing.Point(225, 1);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(59, 32);
+            this.exitButton.TabIndex = 25;
+            this.exitButton.Text = "X";
+            this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
             // RegistroForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(285, 544);
+            this.Controls.Add(this.exitButton);
             this.Controls.Add(this.buttonVolverAlInicio);
             this.Controls.Add(this.buttonRegistrarse);
             this.Controls.Add(this.checkBoxMostrarContraseña);
@@ -208,10 +227,10 @@
             this.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(30)))), ((int)(((byte)(59)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "RegistroForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RegistroForm";
-            this.Load += new System.EventHandler(this.RegistroForm_Load);
+            this.Text = "ChuBox";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -232,5 +251,6 @@
         private Button buttonRegistrarse;
         private Label labelYaTienesCuenta;
         private Button buttonVolverAlInicio;
+        private Button exitButton;
     }
 }

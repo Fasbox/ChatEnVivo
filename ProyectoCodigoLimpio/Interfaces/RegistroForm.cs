@@ -23,10 +23,6 @@ namespace ProyectoCodigoLimpioClient.Interfaces
             _ClientDatabaseService = new ClientDatabaseService();
         }
 
-        private void RegistroForm_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void buttonRegistrarse_Click(object sender, EventArgs e)
         {
@@ -82,6 +78,11 @@ namespace ProyectoCodigoLimpioClient.Interfaces
         {
             new InicioSesionForm().Show();
             this.Hide();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(Environment.ExitCode);
         }
     }
 }

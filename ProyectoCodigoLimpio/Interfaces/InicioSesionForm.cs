@@ -24,11 +24,6 @@ namespace ProyectoCodigoLimpioClient.Interfaces
             _ClientDatabaseService = new ClientDatabaseService();
         }
 
-        private void InicioSesionForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonIniciarSesion_Click(object sender, EventArgs e)
         {
             string contraseña = textBoxContraseña.Text;
@@ -82,6 +77,12 @@ namespace ProyectoCodigoLimpioClient.Interfaces
         {
             new RegistroForm().Show();
             this.Hide();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(Environment.ExitCode);
+
         }
     }
 }
