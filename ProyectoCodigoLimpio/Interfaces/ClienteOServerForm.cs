@@ -8,8 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace ProyectoCodigoLimpioClient.Interfaces
 {
+
     public partial class ClienteOServerForm : Form
     {
         public ClienteOServerForm()
@@ -27,6 +30,11 @@ namespace ProyectoCodigoLimpioClient.Interfaces
         {
             new ServidorForm().Show();
             this.Hide();
+        }
+
+        private void ClienteOServerForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

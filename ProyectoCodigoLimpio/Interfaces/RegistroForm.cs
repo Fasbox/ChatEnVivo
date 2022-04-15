@@ -35,7 +35,7 @@ namespace ProyectoCodigoLimpioClient.Interfaces
             {
                 //Aquí implementar el envío de datos a MongoDB
 
-                insertLoggedUser
+                //insertLoggedUser
 
 
                 textBoxUsername.Text = "";

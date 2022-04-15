@@ -1,4 +1,5 @@
 using TrackerUI;
+using ProyectoCodigoLimpioClient.Interfaces;
 
 namespace ProyectoCodigoLimpioClient
 {
@@ -13,7 +14,7 @@ namespace ProyectoCodigoLimpioClient
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Chat());
+            Application.Run(new ClienteOServerForm());
         }
     }
 }

@@ -24,7 +24,7 @@ namespace ServidorConsola.Model
             Console.WriteLine("Esperando conexión");
             while (true)
             {
-                // ciclo infinito que constentemente espera que un cliente se conecte para crearle un usuario y añadirlo a la lista
+                // ciclo infinito que constantemente espera que un cliente se conecte para crearle un usuario y añadirlo a la lista
                 var newUser = new User(Listener.AcceptTcpClient());
                 _Users.Add(newUser);
                 BroadcastConnetion();

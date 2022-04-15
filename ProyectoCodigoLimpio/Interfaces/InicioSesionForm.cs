@@ -29,11 +29,10 @@ namespace ProyectoCodigoLimpioClient.Interfaces
         private void buttonIniciarSesion_Click(object sender, EventArgs e)
         {
             //Implementar conectar el botón con la base de datos MongoDB
-            if ()
+            if (textBoxContraseña.Text != string.Empty )
             {
                 new Chat().Show();
-                //new ServidorConsola().Show();
-                this.Close();
+                this.Hide();
             }
             else
             {

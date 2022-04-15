@@ -35,6 +35,7 @@
             this.labelIp = new System.Windows.Forms.Label();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.labelCrearServer = new System.Windows.Forms.Label();
+            this.headerPanel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,9 +62,9 @@
             this.textBoxPuerto.Location = new System.Drawing.Point(30, 298);
             this.textBoxPuerto.Multiline = true;
             this.textBoxPuerto.Name = "textBoxPuerto";
-            this.textBoxPuerto.PasswordChar = '•';
             this.textBoxPuerto.Size = new System.Drawing.Size(224, 28);
             this.textBoxPuerto.TabIndex = 22;
+            this.textBoxPuerto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxPuerto_KeyPress);
             // 
             // labelPuerto
             // 
@@ -118,12 +119,23 @@
             this.labelCrearServer.TabIndex = 18;
             this.labelCrearServer.Text = "Crea tu Servidor";
             // 
+            // headerPanel
+            // 
+            this.headerPanel.Location = new System.Drawing.Point(-1, -1);
+            this.headerPanel.Name = "headerPanel";
+            this.headerPanel.Size = new System.Drawing.Size(286, 29);
+            this.headerPanel.TabIndex = 25;
+            this.headerPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.headerPanel_MouseDown);
+            this.headerPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.headerPanel_MouseMove);
+            this.headerPanel.MouseUp += new System.Windows.Forms.MouseEventHandler(this.headerPanel_MouseUp);
+            // 
             // ServidorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(285, 544);
+            this.Controls.Add(this.headerPanel);
             this.Controls.Add(this.buttonCrear);
             this.Controls.Add(this.textBoxPuerto);
             this.Controls.Add(this.labelPuerto);
@@ -133,6 +145,7 @@
             this.Controls.Add(this.labelCrearServer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ServidorForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ServidorForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
@@ -149,5 +162,6 @@
         private Label labelIp;
         private PictureBox pictureBoxLogo;
         private Label labelCrearServer;
+        private Panel headerPanel;
     }
 }

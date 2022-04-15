@@ -186,3 +186,6 @@ C:\Users\Fabian\source\repos\Chubox\ProyectoCodigoLimpio\obj\Debug\net6.0-window
 C:\Users\Fabian\source\repos\Chubox\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.genruntimeconfig.cache
 C:\Users\Fabian\source\repos\Chubox\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ref\ProyectoCodigoLimpioClient.dll
 C:\Users\Fabian\source\repos\Chubox\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.RegistroForm.resources
+C:\Users\Fabian\source\repos\Chubox\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.ClienteOServerForm.resources
+C:\Users\Fabian\source\repos\Chubox\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.InicioSesionForm.resources
+C:\Users\Fabian\source\repos\Chubox\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.ServidorForm.resources
