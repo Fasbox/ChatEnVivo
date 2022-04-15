@@ -10,14 +10,17 @@ using System.Windows.Forms;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using MongoDB.Bson.Serialization.Attributes;
+using ProyectoCodigoLimpioClient.Net.DataBase;
 
 namespace ProyectoCodigoLimpioClient.Interfaces
 {
     public partial class RegistroForm : Form
     {
+        private ClientDatabaseService _ClientDatabaseService;
         public RegistroForm()
         {
             InitializeComponent();
+            _ClientDatabaseService = new ClientDatabaseService();
         }
 
         private void RegistroForm_Load(object sender, EventArgs e)
@@ -27,23 +30,30 @@ namespace ProyectoCodigoLimpioClient.Interfaces
 
         private void buttonRegistrarse_Click(object sender, EventArgs e)
         {
-            if (textBoxUsername.Text == "" && textBoxContraseña.Text == "" && textBoxRepetirContraseña.Text == "")
+            string nickname = textBoxUsername.Text;
+            string contraseña = textBoxContraseña.Text;
+            if (nickname == "" || contraseña == "" || textBoxRepetirContraseña.Text == "")
             {
                 MessageBox.Show("Los campos de usuario y/o contraseña están vacíos", "LLena todos los campos", MessageBoxButtons.OK, MessageBoxIcon.Error);          
             }
-            else if (textBoxContraseña.Text == textBoxRepetirContraseña.Text)
+            else if ( contraseña == textBoxRepetirContraseña.Text)
             {
-                //Aquí implementar el envío de datos a MongoDB
-
-                //insertLoggedUser
-
 
                 textBoxUsername.Text = "";
                 textBoxContraseña.Text = "";
                 textBoxRepetirContraseña.Text = "";
-                
-                MessageBox.Show("Se ha creado correctamente tu cuenta", "Registro exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                if (_ClientDatabaseService.LoggedUserExist(nickname))
+                {
+                    MessageBox.Show("El nombre de usario ya existe, por favor ingrese un nombre diferente ", "Usuario ya existe", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    textBoxUsername.Text = "";
+                    textBoxContraseña.Focus();
+                }
+                else
+                {
+                    LoggedUser nuevoUsuario =  new LoggedUser() { Nickname = nickname, Password = contraseña, Messages = new() };
+                    _ClientDatabaseService.insertLoggedUser(nuevoUsuario);
+                    MessageBox.Show("Se ha creado correctamente tu cuenta", "Registro exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             else
             {

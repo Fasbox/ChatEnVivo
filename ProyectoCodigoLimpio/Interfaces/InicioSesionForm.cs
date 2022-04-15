@@ -11,14 +11,17 @@ using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using TrackerUI;
+using ProyectoCodigoLimpioClient.Net.DataBase;
 
 namespace ProyectoCodigoLimpioClient.Interfaces
 {
     public partial class InicioSesionForm : Form
     {
+        private ClientDatabaseService _ClientDatabaseService;
         public InicioSesionForm()
         {
             InitializeComponent();
+            _ClientDatabaseService = new ClientDatabaseService();
         }
 
         private void InicioSesionForm_Load(object sender, EventArgs e)
@@ -28,16 +31,37 @@ namespace ProyectoCodigoLimpioClient.Interfaces
 
         private void buttonIniciarSesion_Click(object sender, EventArgs e)
         {
+            string contraseña = textBoxContraseña.Text;
+            string nickName = textBoxUsername.Text;
             //Implementar conectar el botón con la base de datos MongoDB
-            if (textBoxContraseña.Text != string.Empty )
+            if (nickName != "" && contraseña != "")
             {
-                new Chat().Show();
-                this.Hide();
+                if (_ClientDatabaseService.LoggedUserExist(nickName))
+                {
+                    LoggedUser usuario = _ClientDatabaseService.ObtenerloggedUser(contraseña, nickName);
+                    if(usuario != null)
+                    {
+                        new Chat(usuario).Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("contraseña incorrecta, intétalo de nuevo", "Credenciales incorrectas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        textBoxContraseña.Text = "";
+                        textBoxContraseña.Focus();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Username  incorrecto, intétalo de nuevo", "Credenciales incorrectas", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    textBoxUsername.Text = "";
+                    textBoxUsername.Focus();
+                }
+                
             }
             else
             {
-                MessageBox.Show("Username o contraseña incorrecta, intétalo de nuevo", "Credenciales incorrectas", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                textBoxContraseña.Text = "";
+                MessageBox.Show("Username o contraseña no pueden estar vacias, intétalo de nuevo", "Credenciales incorrectas", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 textBoxContraseña.Focus();
             }
         }

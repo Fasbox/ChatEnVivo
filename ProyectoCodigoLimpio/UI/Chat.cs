@@ -1,5 +1,6 @@
 using Catel.MVVM;
 using ProyectoCodigoLimpioClient.Model;
+using ProyectoCodigoLimpioClient.Net.DataBase;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Reactive.Linq;
@@ -14,18 +15,30 @@ namespace TrackerUI
 
         private string _UserName;
 
+        private ClientDatabaseService _ClientDatabaseService;
+
         private ClientProgram _Client;
 
         private string _Message;
 
+        private LoggedUser _LoggedUser;
+
         delegate void ActualizarMensajes(String mensaje);
 
         delegate void ActualizarContactos(String nombre);  
-        public Chat()
+        public Chat(LoggedUser loggedUser)
         {
             
             InitializeComponent();
             sendButton.Enabled = false;
+            _ClientDatabaseService = new ClientDatabaseService();
+            _LoggedUser = loggedUser;
+            textBoxUserName.Enabled = false;
+            textBoxUserName.Text = loggedUser.Nickname;
+            foreach( string mensaje in loggedUser.Messages)
+            {
+                listBoxMessagesReceived.Items.Add(mensaje);
+            }
         }   
 
         private void headerLabel_Click(object sender, EventArgs e)
@@ -93,7 +106,6 @@ namespace TrackerUI
                                   
             textBoxIP.Enabled = false;
             textBoxPort.Enabled = false;
-            textBoxUserName.Enabled = false;
             _Client = new ClientProgram();
             _Client.ConnectToServer(_UserName, _Ip, _Port);
             buttonClient.Enabled = false;
@@ -123,8 +135,11 @@ namespace TrackerUI
                 ActualizarMensajes delegado = new ActualizarMensajes(MostrarMensaje);
                 Invoke(delegado, mensaje);
             }
-            else {
+            else
+            {
                 listBoxMessagesReceived.Items.Add(mensaje);
+                _LoggedUser.Messages.Add(mensaje.ToString());
+                _ClientDatabaseService.UpdateLoggedUser(_LoggedUser);
             }
         }
 
