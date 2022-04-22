@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj": {}
+    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj": {
+    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj",
+        "projectUniqueName": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj",
         "projectName": "ChuboxTests",
-        "projectPath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj",
-        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ChuboxTests\\obj\\",
+        "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ChuboxTests\\ChuboxTests.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ChuboxTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
-                "projectPath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj"
+              "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
+                "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj"
               }
             }
           }
@@ -43,24 +47,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MSTest.TestAdapter": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.7, )"
-            },
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.11.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -71,26 +57,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
+    "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+        "projectUniqueName": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
         "projectName": "ProyectoCodigoLimpioClient",
-        "projectPath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
-        "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\obj\\",
+        "projectPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adrian\\Source\\Repos\\Fasbox\\ChatEnVivo\\ProyectoCodigoLimpio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -147,7 +132,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

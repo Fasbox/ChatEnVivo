@@ -1,4 +1,5 @@
 using Catel.MVVM;
+using ProyectoCodigoLimpioClient.Interfaces;
 using ProyectoCodigoLimpioClient.Model;
 using ProyectoCodigoLimpioClient.Net.DataBase;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace TrackerUI
 
         private string _UserName;
 
-        private ClientDatabaseService _ClientDatabaseService;
+        private IDatabaseService _ClientDatabaseService;
 
         private ClientProgram _Client;
 
@@ -31,7 +32,7 @@ namespace TrackerUI
             
             InitializeComponent();
             sendButton.Enabled = false;
-            _ClientDatabaseService = new ClientDatabaseService();
+            _ClientDatabaseService = new MongoDBService();
             _LoggedUser = loggedUser;
             textBoxUserName.Enabled = false;
             textBoxUserName.Text = loggedUser.Nickname;
