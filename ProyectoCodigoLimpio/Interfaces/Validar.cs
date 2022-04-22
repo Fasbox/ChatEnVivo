@@ -8,7 +8,10 @@ namespace ProyectoCodigoLimpioClient.Interfaces
 {
     internal class Validar
     {
-        public static void SoloNumeros(KeyPressEventArgs pE)
+        // Esta clase cumple con el primer principio de SOLID
+        // Esta clase cumple con el segundo principio de SOLID
+
+        public static void SoloNumeros(KeyPressEventArgs pE) 
         {
             if (char.IsDigit(pE.KeyChar))
             {

@@ -3998,11 +3998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+      "projectUniqueName": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
       "projectName": "ProyectoCodigoLimpioClient",
-      "projectPath": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+      "projectPath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
       "packagesPath": "C:\\Users\\Fabian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ProyectoCodigoLimpio\\obj\\",
+      "outputPath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Fabian\\AppData\\Roaming\\NuGet\\NuGet.Config",

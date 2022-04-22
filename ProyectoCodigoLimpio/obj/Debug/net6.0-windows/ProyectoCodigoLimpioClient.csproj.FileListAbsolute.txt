@@ -193,3 +193,105 @@ C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\ne
 C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.InicioSesionForm.resources
 C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.RegistroForm.resources
 C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.ServidorForm.resources
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.exe
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.deps.json
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.runtimeconfig.json
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.pdb
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\Catel.Core.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\Catel.MVVM.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\DnsClient.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\System.Reactive.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\de\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\es\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\fr\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\it\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\nl\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ru\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\tr\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\zh-Hans\Catel.MVVM.resources.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\linux\native\libsnappy64.so
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\linux\native\libzstd.so
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\osx\native\libsnappy64.dylib
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\osx\native\libzstd.dylib
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\libzstd.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\snappy32.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\snappy64.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.AssemblyReference.cache
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.ClienteOServerForm.resources
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.InicioSesionForm.resources
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.RegistroForm.resources
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.ServidorForm.resources
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Properties.Resources.resources
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\TrackerUI.Chat.resources
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.GenerateResource.cache
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.AssemblyInfoInputs.cache
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.AssemblyInfo.cs
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.CoreCompileInputs.cache
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.CopyComplete
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\refint\ProyectoCodigoLimpioClient.dll
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.pdb
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.genruntimeconfig.cache
+C:\Users\valen\Source\Repos\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ref\ProyectoCodigoLimpioClient.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.exe
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.deps.json
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.runtimeconfig.json
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ProyectoCodigoLimpioClient.pdb
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\Catel.Core.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\Catel.MVVM.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\DnsClient.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\System.Reactive.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\de\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\es\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\fr\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\it\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\nl\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\ru\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\tr\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\zh-Hans\Catel.MVVM.resources.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\linux\native\libsnappy64.so
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\linux\native\libzstd.so
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\osx\native\libsnappy64.dylib
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\osx\native\libzstd.dylib
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\libzstd.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\snappy32.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\snappy64.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.AssemblyReference.cache
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.ClienteOServerForm.resources
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.InicioSesionForm.resources
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.RegistroForm.resources
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Interfaces.ServidorForm.resources
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.Properties.Resources.resources
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\TrackerUI.Chat.resources
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.GenerateResource.cache
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.AssemblyInfoInputs.cache
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.AssemblyInfo.cs
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.CoreCompileInputs.cache
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.csproj.CopyComplete
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\refint\ProyectoCodigoLimpioClient.dll
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.pdb
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ProyectoCodigoLimpioClient.genruntimeconfig.cache
+C:\Users\valen\Downloads\Nueva carpeta (3)\ChatEnVivo\ProyectoCodigoLimpio\obj\Debug\net6.0-windows\ref\ProyectoCodigoLimpioClient.dll

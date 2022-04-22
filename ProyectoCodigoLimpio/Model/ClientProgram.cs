@@ -13,6 +13,9 @@ namespace ProyectoCodigoLimpioClient.Model
 {
     public class ClientProgram
     {
+        //Esta clase cumple con el principio nr 1 de responsabilidad SOLID
+        //Esta clase cumple con el principio nr 2 de abierto/cerrado SOLID
+
         private TcpClient _Client;
 
         public PacketReader PacketReader;

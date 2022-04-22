@@ -9,6 +9,8 @@ namespace ProyectoCodigoLimpioClient.Net.IO
 {
     public class PacketReader : BinaryReader
     {
+        // La clase cumple con el primer principio de SOLID
+        // La clase cumple con el segundo principio de SOLID
         private NetworkStream _NetWorkStream;
         public PacketReader(NetworkStream netWorkStream) : base(netWorkStream)
         {

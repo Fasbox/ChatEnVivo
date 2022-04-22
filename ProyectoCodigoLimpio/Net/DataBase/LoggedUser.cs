@@ -10,7 +10,9 @@ using MongoDB.Driver;
 namespace ProyectoCodigoLimpioClient.Net.DataBase
 {
     public class LoggedUser
-    {   
+    {
+        // La clase cumple con el primer principio SOLID
+        // La clase cumple con el segundo principio SOLID
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }

@@ -83,5 +83,10 @@ namespace ProyectoCodigoLimpioClient.Interfaces
         {
             Environment.Exit(Environment.ExitCode);
         }
+
+        private void textBoxIp_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

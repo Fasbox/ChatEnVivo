@@ -10,6 +10,8 @@ namespace ProyectoCodigoLimpioClient.Model
 {
     public class User
     {
+        // La clase cumple con el primer principio de SOLID
+        // La clase cumple con el segundo principio de SOLID
         public string UserName { get; set; }
 
         public Guid UserId { get; set; }

@@ -90,6 +90,7 @@
             this.textBoxIp.Name = "textBoxIp";
             this.textBoxIp.Size = new System.Drawing.Size(224, 28);
             this.textBoxIp.TabIndex = 23;
+            this.textBoxIp.TextChanged += new System.EventHandler(this.textBoxIp_TextChanged);
             // 
             // labelIp
             // 

@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace ProyectoCodigoLimpioClient.Net.DataBase
 {
-    public class ClientDatabaseService
+    public class ClientDatabaseService : DataBaseService
     {
+        // La clase cumple con el primer principio SOLID
+        // La clase cumple con el segundo principio SOLID
+
         private MongoCollectionBase<LoggedUser> LoggedUsers;
         public ClientDatabaseService()
         {

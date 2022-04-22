@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ChuboxTests",
+    "\\ConsoleApp1",
     "\\ProyectoCodigoLimpio",
     "\\ProyectoCodigoLimpio\\Interfaces",
-    "\\ProyectoCodigoLimpio\\Net",
-    "\\ProyectoCodigoLimpio\\Net\\DataBase"
+    "\\ProyectoCodigoLimpio\\Model",
+    "\\ProyectoCodigoLimpio\\UI"
   ],
-  "SelectedNode": "\\ProyectoCodigoLimpio\\Net\\DataBase\\ConexionClient.cs",
+  "SelectedNode": "\\ProyectoCodigoLimpio\\Interfaces\\RegistroForm.cs",
   "PreviewInSolutionExplorer": false
 }

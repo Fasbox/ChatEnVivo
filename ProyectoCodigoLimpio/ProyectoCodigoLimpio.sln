@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoCodigoLimpioClient", "ProyectoCodigoLimpioClient.csproj", "{E340E79F-08BF-434E-8660-20FC16D20CA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChuboxTests", "..\ChuboxTests\ChuboxTests.csproj", "{ED97E866-8F93-4745-90A9-5575A0D31DBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E340E79F-08BF-434E-8660-20FC16D20CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E340E79F-08BF-434E-8660-20FC16D20CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E340E79F-08BF-434E-8660-20FC16D20CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED97E866-8F93-4745-90A9-5575A0D31DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED97E866-8F93-4745-90A9-5575A0D31DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED97E866-8F93-4745-90A9-5575A0D31DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED97E866-8F93-4745-90A9-5575A0D31DBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

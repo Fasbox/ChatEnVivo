@@ -16,7 +16,7 @@ namespace ProyectoCodigoLimpioClient.Interfaces
 {
     public partial class RegistroForm : Form
     {
-        private ClientDatabaseService _ClientDatabaseService;
+        private DataBaseService _ClientDatabaseService;
         public RegistroForm()
         {
             InitializeComponent();
@@ -48,7 +48,7 @@ namespace ProyectoCodigoLimpioClient.Interfaces
                 {
                     LoggedUser nuevoUsuario =  new LoggedUser() { Nickname = nickname, Password = contraseña, Messages = new() };
                     _ClientDatabaseService.insertLoggedUser(nuevoUsuario);
-                    MessageBox.Show("Se ha creado correctamente tu cuenta", "Registro exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Se ha creado correctamente tu cuenta", "Registro exitoso", MessageBoxButtons.OK, MessageBoxIcon.Information); //mensaje de retorno una vez creado o registrado el usuario
                 }
             }
             else

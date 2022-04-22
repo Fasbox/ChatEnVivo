@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FTMwY1x+0T0XSAQbNVzbgp/15IBYnqI/TEcryQQFcAoIKtjT9BtEPECNDZyTqRXtJ8PekeojuLdaNndh6ga7Fw==",
+  "dgSpecHash": "cNI72SFbvEfYsMQ67hsLQv/pHpahHRvFPgYgD2YP3HXoZxwHhUUGKCxQQqog5UvVO0PKWr5+CJK+zjX6upBCfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fabian\\source\\repos\\Chubox\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
+  "projectFilePath": "C:\\Users\\Fabian\\Desktop\\chatenvivo\\ChatEnVivo\\ProyectoCodigoLimpio\\ProyectoCodigoLimpioClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fabian\\.nuget\\packages\\catel.core\\5.12.22\\catel.core.5.12.22.nupkg.sha512",
     "C:\\Users\\Fabian\\.nuget\\packages\\catel.mvvm\\5.12.22\\catel.mvvm.5.12.22.nupkg.sha512",

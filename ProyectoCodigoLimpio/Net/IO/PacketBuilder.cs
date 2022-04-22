@@ -8,6 +8,8 @@ namespace ProyectoCodigoLimpioClient.Net.IO
 {
     public class PacketBuilder
     {
+        // La clase cumple correctamente con el primer principio de SOLID
+        // La clase cumple correctamente con el segundo principio de SOLID
         MemoryStream _MStream;
         public PacketBuilder()
         {

@@ -13,6 +13,8 @@ namespace ProyectoCodigoLimpioClient.Model
 {
     public class ServerProgram
     {
+        //Esta clase cumple con el principio nr 1 de SOLID
+        //Esta clase cumple con el principio nr 2 de SOLID
         public static List<User> _Users;
 
         private TcpListener Listener;
