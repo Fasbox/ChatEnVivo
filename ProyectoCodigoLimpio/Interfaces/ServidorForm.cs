@@ -74,6 +74,7 @@ namespace ProyectoCodigoLimpioClient.Interfaces
             mouseDown = false;
         }
 
+
         private void textBoxPuerto_KeyPress(object sender, KeyPressEventArgs e)
         {
             Validar.SoloNumeros(e);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoCodigoLimpioClient.Interfaces
 {
-    internal class Validar
+    public class Validar
     {
         // Esta clase cumple con el primer principio de SOLID
         // Esta clase cumple con el segundo principio de SOLID
