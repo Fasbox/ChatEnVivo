@@ -1,5 +1,0 @@
-C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\netcoreapp3.1\ServidorConsola.csproj.AssemblyReference.cache
-C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\netcoreapp3.1\ServidorConsola.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\netcoreapp3.1\ServidorConsola.AssemblyInfoInputs.cache
-C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\netcoreapp3.1\ServidorConsola.AssemblyInfo.cs
-C:\Users\Adrian\Source\Repos\Fasbox\ChatEnVivo\ConsoleApp1\obj\Debug\netcoreapp3.1\ServidorConsola.csproj.CoreCompileInputs.cache
